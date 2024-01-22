@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - FCC_Responsive Web Design_Challenge_Technical Documentation Page</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Python Documentation</header>
+      <ul>
+        <li>
+          <a class="nav-link" href="#Introduction">Introduction</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Core_Features">Core Features</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Extensions">Extensions</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Variables_and_Data_Types">Variables and Data Types</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Variable_Declarations">Variable Declarations</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Variable_Scope">Variable Scope</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Data_Types">Data Types</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Control_Structures">Control Structures</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Function_Declarations">Function Declarations</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Reference">Reference</a>
+        </li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <article>
+          <p>Python is a versatile, high-level, interpreted programming language known for its readability and ease of use. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. Python is widely used for web development, data analysis, artificial intelligence, scientific computing, and more.</p>
+        </article>
+      </section>
+      <section class="main-section" id="Core_Features">
+        <header>Core Features</header>
+        <article>
+          <p>Python provides a standard library with built-in objects like lists, dictionaries, and strings, along with essential language elements such as operators, control structures, and statements. The language encourages code modularity and reusability, facilitating the development of scalable and maintainable applications.</p>
+        </article>
+      </section>
+      <section class="main-section" id="Extensions">
+        <header>Extensions</header>
+        <article>
+          <p>Python's flexibility allows for various extensions based on specific needs:</p>
+          <ul>
+            <li><span class="bold">Web Development (Django, Flask):</span> Python can be used for server-side web development, handling HTTP requests and responses. Frameworks like Django and Flask streamline the creation of robust web applications.</li>
+            <li><span class="bold">Data Science (NumPy, Pandas):</span> Libraries such as NumPy and Pandas extend Python for efficient numerical computing and data analysis. Python is a go-to language for data scientists, providing powerful tools for data manipulation, exploration, and visualization.</li>
+            <li><span class="bold">Artificial Intelligence (TensorFlow, PyTorch):</span> Python is a popular language for AI and machine learning applications, with frameworks like TensorFlow and PyTorch offering extensive support. Its simplicity and readability make it accessible for researchers and developers working on cutting-edge AI projects.</li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="Variables_and_Data_Types">
+        <header>Variables and Data Types</header>
+        <article>
+          <p>Python uses dynamic typing, allowing variables to change types during execution. Variable names must start with a letter or underscore, followed by letters, numbers, or underscores. Python supports various data types, including:</p>
+          <ul>
+            <li><span class="bold">Numeric Types:</span> Integers and floating-point numbers.</li>
+            <li><span class="bold">Text Type:</span> Strings, with robust string manipulation capabilities.</li>
+            <li><span class="bold">Boolean Type:</span> True or False values for logical operations.</li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="Variable_Declarations">
+        <header>Variable Declarations</header>
+        <article>
+          <p>Variables in Python can be declared using various methods:</p>
+          <p>1. Using the '=' operator:</p>
+          <code>x = 42  # Global variable</code>
+          <p>2. Explicitly specifying data type with 'var':</p>
+          <code>var_name = "Hello, Python!"  # String variable</code>
+          <p>3. Using 'const' for constants:</p>
+          <code>PI = 3.14  # Constant declaration</code>
+        </article>
+      </section>
+      <section class="main-section" id="Variable_Scope">
+        <header>Variable Scope</header>
+        <article>
+          <p>Python distinguishes between global and local variable scope. Variables declared outside functions are global, while those within functions are local. The introduction of block-scoped variables in recent Python versions enhances code clarity and avoids unexpected behavior.</p>
+        </article>
+      </section>
+      <section class="main-section" id="Data_Types">
+        <header>Data Types</header>
+        <article>
+          <p>Python supports various data types, including primitive types such as:</p>
+          <ul>
+            <li><span class="bold">Numeric Types:</span> Int, float, complex.</li>
+            <li><span class="bold">Sequence Types:</span> List, tuple, range.</li>
+            <li><span class="bold">Mapping Type:</span> Dictionary.</li>
+            <li><span class="bold">Set Types:</span> Set, frozenset.</li>
+            <li><span class="bold">Boolean Type:</span> Bool.</li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="Control_Structures">
+        <header>Control Structures</header>
+        <article>
+          <p>Python utilizes familiar control structures:</p>
+          <ul>
+            <li><span class="bold">if...else Statements:</span> For conditional execution.</li>
+            <li><span class="bold">while Statement:</span> For loop execution based on a condition.</li>
+            <li><span class="bold">for...in Statement:</span> For iterating over sequences.</li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="Function_Declarations">
+        <header>Function Declarations</header>
+        <article>
+          <p>Python functions are defined using the 'def' keyword, specifying the function name, arguments, and body:</p>
+          <pre><code>def greet_me(your_name):
+          print("Hello, " + your_name)</code></pre>
+          <code>greet_me("World")</code>
+          <p>Python's extensive documentation, including the Python Software Foundation's official documentation and resources like the Python Package Index (PyPI), serves as a comprehensive guide for developers.</p>
+        </article>
+      </section>
+      <section class="main-section" id="Reference">
+        <header>Reference</header>
+        <article>
+          <p>All the documentation on this page was researched by <a id="gpt" href="https://chat.openai.com" target="_blank">ChatGPT</a></p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
